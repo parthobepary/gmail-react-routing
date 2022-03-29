@@ -8,7 +8,6 @@ const Posts = () => {
       .then((res) => res.json())
       .then((data) => setPost(data));
   }, []);
-  console.log(post);
   return (
     <div>
       <h1>Welcome to posts section</h1>
